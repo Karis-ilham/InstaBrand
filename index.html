@@ -6,6 +6,7 @@
   <title>InstaBrand - Jasa Desain Grafis</title>
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
+
 
 <body>
 
@@ -29,7 +32,7 @@
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" data-aos="fade-up">
     <div class="hero-content">
       <h1>
         Jasa Desain Grafis<br>
@@ -57,7 +60,7 @@
     </div>
   </section>
 
-  <section class="section" id="keunggulan">
+  <section class="section" id="keunggulan" data-aos="fade-up">
     <h2>Jasa Desain Grafis #1</h2>
     <p class="subtitle">Membantu menciptakan desain visual profesional untuk kebutuhan brand Anda</p>
 
@@ -88,7 +91,7 @@
     </div>
   </section>
 
-  <section class="section" id="testimoni">
+  <section class="section" id="testimoni" data-aos="fade-right">
     <h2>Testimoni</h2>
     <p class="subtitle">Hasil nyata dari pelanggan yang telah menggunakan jasa InstaBrand</p>
 
@@ -119,7 +122,7 @@
     </div>
   </section>
 
-  <section class="promo">
+  <section class="promo" data-aos="fade-left">
     <div>
       <h2>
         Jasa Desain Kualitas<br>
@@ -142,7 +145,7 @@
     <h2>Daftar Harga Jasa<br>desain InstaBrand</h2>
 
     <div class="cards">
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-crown"></i>
         <h3>Desain Logo</h3>
         <p>Mulai dari 100k</p>
@@ -151,7 +154,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-ribbon"></i>
         <h3>Desain Banner</h3>
         <p>Mulai dari 50k</p>
@@ -160,7 +163,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-building"></i>
         <h3>Company Profile</h3>
         <p>Mulai dari 150k</p>
@@ -169,7 +172,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-regular fa-newspaper"></i>
         <h3>Desain Brosur</h3>
         <p>Mulai dari 50k</p>
@@ -178,7 +181,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-cube"></i>
         <h3>Desain Kemasan</h3>
         <p>Mulai dari 150k</p>
@@ -187,7 +190,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-signs-post"></i>
         <h3>Desain Feed Sosmed</h3>
         <p>Mulai dari 50k</p>
@@ -196,7 +199,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-object-group"></i>
         <h3>UI/UX Desain</h3>
         <p>Mulai dari 250k</p>
@@ -205,7 +208,7 @@
         </a>
       </article>
 
-      <article class="price-card">
+      <article class="price-card" data-aos="zoom-in">
         <i class="fa-solid fa-file-invoice"></i>
         <h3>Desain Lainnya</h3>
         <p>Mulai dari 50k</p>
@@ -216,7 +219,7 @@
     </div>
   </section>
 
-  <section class="section order" id="order">
+  <section class="section order" id="order" data-aos="fade-up">
     <h2>Cara Order Desain</h2>
     <p class="subtitle">Mudah, cepat, dan aman untuk kebutuhan bisnis Anda.</p>
 
@@ -252,5 +255,14 @@
     <p>InstaBrand | Jasa Desain Grafis Profesional © 2026 All Rights Reserved</p>
   </footer>
 
-</body>
-</html>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+  AOS.init({
+      duration: 1000,
+      once: true
+  });
+  </script>
+  
+  </body>
+  </html>
